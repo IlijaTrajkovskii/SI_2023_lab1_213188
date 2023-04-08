@@ -1,0 +1,29 @@
+commit 4d7645ec4fc3c85d1771a4fc26eaa14e490bdabb
+Author: IlijaTrajkovskii <ilija.trajkovski@students.finki.ukim.mk>
+Date:   Sat Apr 8 21:38:21 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit d1684c8b9e843e71b3dba3ece3d1e1e476c1876b
+Author: IlijaTrajkovskii <ilija.trajkovski@students.finki.ukim.mk>
+Date:   Sat Apr 8 21:34:36 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit efc6610d4acb286c8766e3f5fbd6d1b155dd8138 (origin/bug1, bug1)
+Author: IlijaTrajkovskii <ilija.trajkovski@students.finki.ukim.mk>
+Date:   Sat Apr 8 21:32:48 2023 +0200
+
+    Fix wrong loop for reading
+
+commit d643c7c2af4516c48f22e3105982cc8527f8876d
+Author: IlijaTrajkovskii <ilija.trajkovski@students.finki.ukim.mk>
+Date:   Sat Apr 8 21:18:02 2023 +0200
+
+    Add Java class
+
+commit 3718bcd6276bbb63cc9f3fce502f2517204cd771
+Author: IlijaTrajkovskii <ilija.trajkovski@students.finki.ukim.mk>
+Date:   Sat Apr 8 21:16:44 2023 +0200
+
+    Initial commit

@@ -1,0 +1,47 @@
+4.git init
+5.git remote add origin https://github.com/VerchePetrushevska/SI_2023_lab1_213064.git 
+povrzuvame lokalniot repozitoriuim so remote repo
+6.echo "Ilija Trajkovski 213188" >> README.md 
+Pravime prvin 
+
+1.git add . 
+pa potoa pravime 
+2.git commit -m "Initial commit"
+
+7.type nul > SILab1.java 
+kreirame java file
+8.git push -u origin master 
+9. git branch bug1
+git branch bug2
+git branch bug3
+Pred da gi kreirame proveruvzame dali sme na master grankata
+10.git checkout bug1
+11.git commit -a -m "Fix wrong loop for reading"
+Vo edno pravime git add i potoa commit so poraka -m
+< = bese smeneto vo  <
+12.git checkout bug2
+13.git commit -a -m "Fix wrong condition in filterOddNumbers"
+uslovot e smenet vo if(el % 2==1)
+14. git checkout bug3
+15. git commit -a -m "Fix method sumEvenNumbers" 
+se pravi provena vo delot za presmetuvanje zbir od * menuvame vo + 
+16.git checkout bug1 
+git push -u origin bug1
+git checkout bug2 
+git push -u origin bug2
+git checkout bug3
+git push -u origin bug3
+17. git checkout master
+18. git merge bug1
+Spojuvanjeto bese so fast-forward sto znaci deka ne nastanaa konflikti pomegu grankite
+19.git push origin master
+20. git merge bug2 
+ova spojuvanje se izvrsi so ort strategija. Dvete granki imaa razlicno, morase racno da se popravat greski
+21. git push origin master
+22. git checkout bug3
+23. git rebase master
+24. git checkout master
+25. git merge bug3 
+Spojuvanjeto se izvrsi so fast fordward nemase greski kaj grankite
+26.git push origin master
+27.type nul > logs.txt
